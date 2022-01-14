@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Cursos Kylle</title>
+</head>
+<body>
+    <header class="cabeçalho">
+        <h1 class="titulo">Formulário de Cadastro</h1>
+    </header>
+
+    <main class="conteudo-principal">
+        <h4 class="preencher">Preencha com seus dados</h4>
+        <form action="cursos.html" method="get" class="form">
+            <h3 class="identificacao"> Identificação do Aluno (a)</h3>
+            <label for="nome-completo" id="nome-completo">Nome completo:</label>
+                <input type="text" name="user" id="nome-completo2" placeholder="Seu nome completo" required>
+            <label for="nasc" id="nasc">Data de Nascimento:</label>
+                <input type="date" id="nasc2" name="nascimento" required>
+        <h3 class="contato"> Endereço e Contato</h3>
+            <label for="home" id="home">Endereço:</label>
+            <input type="text" id="home2" placeholder="Rua, Nº - Bairro" required>
+            <label for="city" id="city">Cidade/Estado:</label>
+            <input type="text" id="city2" placeholder="Sua Cidade - UF" required>
+            <label for="cep" id="cep">CEP:</label>
+            <input type="text" id="cep2" class="city2" placeholder="CEP da Rua" required>
+            <label for="e-mail" id="email">E-mail:</label>
+            <input type="email" id="email2" name="email2" placeholder="seu-email@domínio.com" required>
+            <label for="tel" id="tel">Celular:</label>
+            <input type="number" id="tel2" name="celular" placeholder="DDD + Seu Número" required>
+        <h3 class="informacao-curso"> Informações do Curso</h3>
+        <label for="linguagens"id="linguagens">Linguagens de Interesse</label>
+        <div class="lista-prog">
+            <input type="checkbox" id="html" class="prog" value="HTML" checked  > 
+            <label for="html">HTML</label>
+            <input type="checkbox" id="css" class="prog" value="CSS"> 
+            <label for="css">CSS</label>
+            <input type="checkbox" id="js" class="prog" value="JavaScript"> 
+            <label for="js">JavaScript</label>
+            <input type="checkbox" id="c-c++" class="prog" value="C/C++"> 
+            <label for="c-c++">C/C++</label>
+            <input type="checkbox" id="python" class="prog" value="Python"> 
+            <label for="python">Python</label>
+            <input type="checkbox" id="java" class="prog" value="Java"> 
+            <label for="java">Java</label>
+            <input type="checkbox" id="php" class="prog" value="PHP"> 
+            <label for="php">PHP</label>
+            <input type="checkbox" id="ts" class="prog" value="TypeScript"> 
+            <label for="ts">TypeScript</label>
+            <input type="checkbox" id="ruby" class="prog" value="Ruby">
+            <label for="ruby">Ruby</label></br>
+            <label for="outro" id="outro">Outra:</label>
+            <input type="text" id="outro2" class="prog2" size="20">
+        </div>
+       <div class="turno-area">
+        <label for="turno" id="turno">Melhor Turno:</label>
+        <select class="opcoes-turno" required>
+            <option class="turnos"></option>
+            <option class="turnos">Manhã</option>
+            <option class="turnos">Tarde</option>
+            <option class="turnos">Noite</option>
+        </select>
+        <label for="area-interesse" id="area-interesse2">Área de Interesse:</label>
+        <select class="dominio" required >
+            <option class="area"></option>
+            <option class="area">Front-End</option>
+            <option class="area">Back-End</option>
+            <option class="area">FullStack</option>
+            <option class="area">Mobile</option>
+        </select>
+    </div>
+    <div class="botao-enviar">
+        <input type="submit" class="enviar">
+    </div>
+       </form>
+    </main>   
+
+    <footer>
+        <div class="menu-listas">
+        <a href="" target="_blank">
+            <h3 class="menu">Menu</h3>
+            <h6 class="lista">Quem Somos</h6>
+            <h6 class="lista">Planos de Estudos</h6>
+            <h6 class="lista">Fale Conosco</h6></br>
+        </a>
+        </div>
+    </footer>
+    
+<aside> 
+    <div class="feito-por">
+        <h6 class="criador">By: @LucimaraSouza8</h6>
+    </div>
+</aside>
+</body>
+</html>
